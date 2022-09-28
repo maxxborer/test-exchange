@@ -17,7 +17,7 @@ export function Header() {
   const volumet24 = useMemo(() => `${numbers.formatCurrency(3714.23)} ${cryptocurrencyCode}`, []);
 
   return (
-    <header className="sm:h-12 h-10 bg-gray-900 inline-flex w-full px-4 sm:px-3 justify-between">
+    <header className="md:h-12 h-10 bg-gray-900 inline-flex w-full px-4 md:px-3 justify-between">
       <div className="inline-flex items-center">
         <Logo />
         <SelectCurrency />
@@ -26,7 +26,7 @@ export function Header() {
           currency="USD"
           currencySymbol="$"
         />
-        <div className="items-center hidden sm:inline-flex">
+        <div className="items-center hidden md:inline-flex">
           <Changes
             title="24h Change"
             value={percent24}
@@ -47,9 +47,9 @@ export function Header() {
         </div>
       </div>
       <div className="inline-flex items-center">
-        <Auth className="hidden sm:inline-flex" />
-        <Settings className="hidden sm:inline-flex" />
-        <Menu className="sm:hidden block w-5 h-5" />
+        <Auth className="hidden md:inline-flex" />
+        <Settings className="hidden md:inline-flex" />
+        <Menu className="md:hidden block w-5 h-5" />
       </div>
     </header>
   );

@@ -7,9 +7,9 @@ export function Price({ value, currency, currencySymbol }) {
 
   return (
     <p className="text-white text-base font-bold mr-4">
-      <span className="hidden sm:inline">{currencySymbol}</span>
-      <Button className="inline sm:hidden text-gray-400 text-xs mr-1">{currency}</Button>
-      <span className="inline text-xs sm:text-base">{price}</span>
+      <span className="hidden md:inline">{currencySymbol}</span>
+      <Button className="inline md:hidden text-gray-400 text-xs mr-1" view="blank">{currency}</Button>
+      <span className="inline text-xs md:text-base">{price}</span>
     </p>
   );
 }

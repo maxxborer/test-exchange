@@ -1,26 +1,27 @@
 import React from 'react';
+import { Link } from 'shared/ui/link';
 
 export function Auth({ className }) {
   return (
     <div className={`inline-flex ${className}`}>
-      <a
+      <Link
         href="/"
-        className="font-semibold block items-center text-center text-blue-500 text-xs h-6 mx-2 px-4 border-blue-500 border rounded"
+        view="transparent"
         style={{
           lineHeight: 1.7,
         }}
       >
         Log in
-      </a>
-      <a
+      </Link>
+      <Link
         href="/"
-        className="font-semibold block items-center text-center text-white bg-blue-500 text-xs h-6 mx-2 px-4 border-blue-500 border rounded"
+        view="primary"
         style={{
           lineHeight: 1.7,
         }}
       >
         Register
-      </a>
+      </Link>
     </div>
   );
 }

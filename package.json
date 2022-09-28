@@ -21,7 +21,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint ./ --ignore-path .gitignore",
     "lint:fix": "npm run lint -- --fix",
-    "deploy": "gh-pages -d build -b main"
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [

@@ -7,9 +7,9 @@ export function Logo({ className }) {
   return (
     <a href={paths.MAIN} className={className}>
       <LogoSvg
-        className="fill-white mr-4 hidden sm:block"
+        className="fill-white mr-4 hidden md:block"
       />
-      <div className="mr-4 sm:hidden block w-14">
+      <div className="mr-4 md:hidden block w-14">
         <LogoSmallSvg className="fill-white h-6" />
       </div>
     </a>

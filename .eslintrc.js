@@ -27,10 +27,11 @@ module.exports = {
     'no-console': 1,
     'no-unused-vars': 1,
     'import/no-unresolved': 2,
-    'no-undefined': 2,
+    'no-undefined': 'off',
     'react/jsx-uses-vars': 2,
     'import/prefer-default-export': 'off',
     'react/prop-types': 'off',
+    'react/jsx-props-no-spreading': 'off',
   },
   settings: {
     'import/resolver': {

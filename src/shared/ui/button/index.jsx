@@ -1,9 +1,23 @@
 import React from 'react';
+import { getButtonStyle } from './utils';
 
-export function Button({ onClick, className, children }) {
+export function Button({
+  onClick, className, componentTag, children, view = 'primary', ...props
+}) {
+  const viewClassName = getButtonStyle(view);
+  const Tag = componentTag || 'button';
+  const type = Tag === 'button' ? 'button' : undefined;
+  const notBlank = view !== 'blank';
+  const minWidthForButton = notBlank ? 'min-w-[5rem]' : 'min-w-0';
+
   return (
-    <button className={`pointer ${className}`} type="button" onClick={onClick}>
+    <Tag
+      className={`pointer ${viewClassName} ${minWidthForButton} ${className}`}
+      type={type}
+      onClick={onClick}
+      {...props}
+    >
       {children}
-    </button>
+    </Tag>
   );
 }

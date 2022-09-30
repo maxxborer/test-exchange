@@ -9,6 +9,7 @@ https://www.bitstamp.net/market/tradeview/
 
 Максимальный срок выполнения задачи: 3 дня.
 
+DEMO: https://maxxborer.github.io/test-exchange/
 
 # Getting Started with Create React App
 

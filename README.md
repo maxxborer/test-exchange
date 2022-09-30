@@ -1,3 +1,15 @@
+Тестовое задание:
+
+Ссылка на пример:
+https://www.bitstamp.net/market/tradeview/
+ 
+Нужно сверстать данную страницу, без функционала, и без графика, просто изображение поставьте место графика, должно хорошо отображаться и на мобилке и на компе.
+ 
+Желательно используя tailwind & React js (next js)
+
+Максимальный срок выполнения задачи: 3 дня.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

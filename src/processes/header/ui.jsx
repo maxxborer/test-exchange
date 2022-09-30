@@ -1,8 +1,8 @@
 import React from 'react';
 import { SelectCurrency } from 'features/select-currency';
 import { Price } from 'entities/price';
-import { ChangesBlock } from 'widgets/changesBlock';
-import { UserMenu } from 'widgets/userMenu';
+import { ChangesBlock } from 'widgets/changes-block';
+import { UserMenu } from 'widgets/user-menu';
 import { Logo } from 'shared/ui/logo';
 
 export function Header() {
